@@ -1,0 +1,1 @@
+The Odin Project Landing Page assignment from the Foundations Course. This assignment focuses on the implementation of Flex and understanding page element orientation. 
