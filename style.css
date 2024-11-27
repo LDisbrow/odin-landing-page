@@ -37,6 +37,53 @@ ul{
     font-weight: 900;
 }
 
+.banner{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 64px;
+}
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.banner-title{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.banner-caption{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button{
+    background: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-weight: 900;
+    text-align: center;
+    flex-grow: 0;
+    border: none;
+    cursor: pointer;
+    padding: 8px 32px;
+}
+
+.banner-image{
+    display: flex;
+    align-items: center;
+    background-color: #6a7280;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 64px 120px;
+}
+
 .footer{
     text-align: center;
     background-color: #1f2937;
