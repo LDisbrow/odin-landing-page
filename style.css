@@ -25,7 +25,7 @@ ul{
 .header{
     display: flex;
     background-color: #1f2937;
-    padding: 16px 64px;
+    padding: 16px 160px;
     justify-content: space-between;
     gap: 10px;
 
@@ -42,7 +42,7 @@ ul{
     background-color: #1f2937;
     justify-content: space-between;
     gap: 32px;
-    padding: 64px;
+    padding: 80px 160px;
 }
 
 .banner-text{
@@ -82,7 +82,11 @@ button{
     background-color: #6a7280;
     color: #e5e7eb;
     text-align: center;
-    padding: 64px 120px;
+    justify-content: center;
+    width: 600px;
+    height: 180px;
+    padding: 16px;
+    min-width: 80px;
 }
 
 .information{
